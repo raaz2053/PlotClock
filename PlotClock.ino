@@ -1,7 +1,4 @@
 // Plotclock
-// cc - by Johannes Heberlein 2014
-// v 1.02
-// thingiverse.com/joo   wiki.fablab-nuernberg.de
 // units: mm; microseconds; radians
 // origin: bottom left of drawing surface
 // time library see http://playground.arduino.cc/Code/time 
@@ -9,13 +6,9 @@
 //               or http://www.pjrc.com/teensy/td_libs_DS1307RTC.html  
 // Change log:
 // 1.01  Release by joo at https://github.com/9a/plotclock
-// 1.02  Additional features implemented by Dave:
+// 1.02  Additional features implemented by raaz2053:
 //       - added ability to calibrate servofaktor seperately for left and right servos
 //       - added code to support DS1307, DS1337 and DS3231 real time clock chips
-//       - see http://www.pjrc.com/teensy/td_libs_DS1307RTC.html for how to hook up the real time clock
-//
-// 1.03  Remix/mod by Kjetil Egeland
-
 // delete or mark the next line as comment if you don't need these
 //#define CALIBRATION      // enable calibration mode
 //#define REALTIMECLOCK    // enable real time clock
